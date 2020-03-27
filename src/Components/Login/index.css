@@ -1,0 +1,78 @@
+
+.login-div {
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    background-image: url('../../assets/images/background-image.webp');
+    background-size: cover;
+}
+.row-login-box {
+    /* display: flex; */
+    margin-top: 45%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #F8FBFF;
+}
+.login-logo {
+    width: 170px;
+    border-radius: 4px;
+    /* background-color: #183761; */
+    color: #183761;
+    opacity: 1;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.input-email {
+    margin-top: 25px;
+}
+.username-icon {
+    color: rgba(128, 128, 128, 0.986);
+}
+.input-password {
+    margin-top: 25px;
+}
+.check-box {
+    margin-top: 25px;
+}
+.span2-text {
+    color: gray;
+}
+.row-remember-forgot-pass {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.h5-forgot-password {
+    margin-top: 18px;
+    color: gray; 
+}
+.row-signin-button {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.signin-button {
+    width: 40%;
+    background-color: #5D89C7;
+    color: white;
+    font-weight: normal;
+}
+.new-to-melior-text {
+    margin-top: 8px;
+}
+.signup-button {
+    border: 0px;
+    opacity: 1;
+    color: #5694D9;
+}
+@media screen and (max-width: 480px) {
+    .row-login-box {
+        margin-top: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 633px) {
+    .row-login-box {
+        margin-top: 35%;
+    }
+  }

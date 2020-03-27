@@ -1,0 +1,108 @@
+
+.search-result-body {
+    background-color: white;
+}
+
+.signup-container {
+    background-image: url('../../assets/images/background-image.webp');
+    background-size: 100%;
+    background-size: cover;
+}
+.signup-logo {
+    width: 190px;
+    border-radius: 4px;
+    /* background: transparent; */
+    opacity: 1;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.signup-box {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: #F8FBFF; */
+    background-color: "rgba(248,251,255, 0.2)";
+    /* box-shadow: rgb(240, 239, 239) 0px 0px 2px 2px; */
+}
+.row-input-name {
+    margin-top: 15px;
+    border: 0px;
+}
+.check-box,.privacy-polic,.row-signup-button {
+    margin-top: 15px;
+}
+.input-name,.input-email {
+    box-shadow: rgb(240, 239, 239) 1px 0px 3px 3px;
+    height: 40px;
+    border-color: white;
+    text-decoration-color: gray;
+}
+.input-password {
+    height: 40px;
+    box-shadow: rgb(240, 239, 239) 1px 0px 3px 3px;
+    border-color: white;
+    text-decoration-color: gray;
+}
+.input-message {
+    margin-top: 25px;
+    height: 60px;
+    box-shadow: rgb(240, 239, 239) 1px 0px 3px 3px;
+    border-color: white;
+    text-decoration-color: gray;
+} 
+.pass-strength {
+    color: #5694D9;
+}
+/* .forgot-pass-text {
+    margin-top: 27px;
+    color: rgba(180, 180, 180, 0.979);
+    color: rgba(128, 128, 128, 0.986);
+} */
+.signup-button {
+    width: 40%;
+    background-color: #FFBF00;
+    color: white;
+    font-weight: normal;
+}
+/* .new-to-melior-text {
+    margin-top: 8px;
+} */
+.login-button {
+    border: 0px;
+    opacity: 1;
+    color: #5694D9;
+    background-color: white;
+    /* padding-bottom: 50px; */
+}
+.username-icon {
+    color: rgba(128, 128, 128, 0.986);
+} 
+/* .row-login {
+    margin-bottom: 100px;
+} */
+@media screen and (max-width: 380px) {
+    .signup-box {
+        margin-top: 14%;
+    }
+  }
+
+@media screen and (max-width: 633px) {
+    .profile-list-call-text {
+       /* display: inline;  */
+       margin: 0px;
+       padding: 0px;
+    }
+
+    .profile-list-call-no {
+        font-size: 20px;
+        color: #0F6AB6;
+    }
+
+    .profile-list-call{
+      /* display: inline;  */
+      margin-left: 14px;
+      margin: 0px;
+      padding: 0px;
+    }
+  }

@@ -1,0 +1,70 @@
+.provoder-list-body
+{
+    width: 100%;
+    background-image: url('../../assets/images/background-image.webp');
+    background-repeat: no-repeat;
+    /* background-size: 100%;     */
+    background-size: cover;    
+    background-attachment: fixed;
+}
+
+.search-container {  
+    margin-top: 20px;
+    background-color: #3d9bff93;
+    border-radius: 10px;
+    padding: 40px 10px;
+}
+
+.search-container div {
+    /* display: flex;
+    justify-content: center; */
+    color: rgb(255, 255, 255);
+}
+
+.search-container div h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.search-container div h2 {
+    color: rgb(255, 255, 255);
+}
+
+.search-parameters
+{
+  margin-top: 20px;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.search-parameters label {
+  font-size: 10px;
+}
+
+
+/* *****************Tabs**********************/
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+  }

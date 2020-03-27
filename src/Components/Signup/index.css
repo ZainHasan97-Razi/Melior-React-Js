@@ -1,0 +1,70 @@
+.signup-container {
+    background-image: url('../../assets/images/background-image.webp');
+    background-size: 100%;
+    background-size: cover;
+}
+.signup-logo {
+    width: 170px;
+    border-radius: 4px;
+    /* background: transparent; */
+    opacity: 1;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.signup-box {
+    margin-top: 40%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #F8FBFF;
+}
+.row-input-name {
+    margin-top: 15px;
+    border: 0px;
+}
+.check-box,.privacy-polic,.row-signup-button {
+    margin-top: 15px;
+}
+.input-name,.input-email,.input-password {
+    box-shadow: rgb(240, 239, 239) 1px 0px 3px 3px;
+    border-color: white;
+    text-decoration-color: gray;
+}
+.pass-strength {
+    color: #5694D9;
+}
+.signup-button {
+    width: 40%;
+    background-color: #5D89C7;
+    color: white;
+    font-weight: normal;
+}
+.login-button {
+    border: 0px;
+    opacity: 1;
+    color: #5694D9;
+    background-color: white;
+    /* padding-bottom: 50px; */
+}
+.username-icon {
+    color: rgba(128, 128, 128, 0.986);
+} 
+/* .row-login {
+    margin-bottom: 100px;
+} */
+@media screen and (max-width: 380px) {
+    .signup-box {
+        margin-top: 14%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .signup-box {
+        margin-top: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 633px) {
+    .signup-box {
+        margin-top: 35%;
+    }
+  }

@@ -1,0 +1,205 @@
+.row-container {
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#vh100 {
+  height: 100vh;
+}
+
+.div-container {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #5D89C7;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.div-container-hide {
+  margin-top: 130px;
+  margin-bottom: 200px;
+  width: 100%;
+  background-color: #5D89C7;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.filter-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-content {
+  height: auto;
+  margin-top: -16px;
+  border: 2px rgb(179, 179, 179);
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-content>.ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+  border: 2px gray;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-bar {
+  border-color: #e8e8e8 !important;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+  border-bottom: #fff;
+  background: transparent;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #e8e8e8 !important;
+  background: #fff;
+}
+
+.button-div {
+  width: 80%;
+  padding-top: 20px;
+}
+
+.text-style1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+  font-size: 35px;
+}
+
+.text-style2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.search-input-label {
+  font-size: 9px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: arial;
+}
+
+.show-btn {
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.button-style {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  color: white;
+  background-color: #2e61ad;
+  font-size: 12px;
+  display: inline;
+}
+
+.input1, .input2 {
+  width: 100%;
+}
+
+.div-input1, .div-input2 {
+  width: 95%;
+}
+
+.collapse-tab {
+  background-color: #5D89C7;
+  border: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.button-style2 {
+  border: 2px solid #6D8496;
+  border-radius: 15px;
+  background-color: #4D5DE3;
+  color: #ffffff;
+}
+
+.state-name {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.check-box-container {
+  padding-top: 8px;
+}
+
+.check-box-container2 {
+  padding-top: 8px;
+}
+
+.check-box {
+  margin-bottom: 10px;
+}
+
+.check-box-text {
+  color: #8A8B8C;
+}
+
+.icon-arrow {
+  color: white !important;
+  font-size: 15px !important;
+  padding: 8px 0px !important;
+}
+
+
+/* /////////////// Find in the list ///////////////////////// */
+
+.find-a-listing {
+  background-color: white;
+  padding: 20px 10px 10px;
+}
+
+.find-a-listing > h3 {
+  color: #1890ff;
+}
+
+/* ////////////// Staerch by State //////////// */
+
+.search-by-state {
+  background-color: white;
+  border: 0.5px solid #e8e8e8 ;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search-by-state-title {
+  color: #1890ff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .mobile-responsive-search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .input1, .input2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .text-style1 {
+    font-size: 25px;
+  }
+  .text-style2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .check-box-container2 {
+    padding-top: 0px;
+  }
+  .button-style2 {
+    font-size: 12px;
+  }
+}

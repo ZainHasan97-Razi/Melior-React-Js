@@ -1,0 +1,54 @@
+.provider-info-form {
+    /* margin-top: 30px; */
+}
+.provider-info-text {
+    color: rgb(85, 85, 221);
+}
+.input-name-col1,.input-address-col1,.input-address-col4,.input-address-col4,
+.medical-school-col,.residency-training-col {
+    padding-right: 5px;
+}
+.input-name-col3,.input-address-col3 {
+    padding-left: 5px;
+}
+.input-address-col5,.input-address-col4 {
+    margin-top: 5px;
+}
+.row-radio-gender,.row-select-office-hours,.row-office-hours,.row-patient-type,.row-radio-accept-patient,
+.row-health-insurance2,.row-health-insurance,.row-practice-name,.row-practice-name,.row-specialty,.row-american-board,
+.row-residency-training,.row-medical-school,.row-medical-school,.row-email,.row-phone-number,
+.row-address,.row-submit-button {
+    margin-top: 15px;
+}
+.input-address-col6 {
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.year-star {
+    color: red;
+}
+.time-picker {
+    font-size: 10px;
+    display: inline;
+}
+.submit-button {
+    color: rgb(83, 83, 255);
+    border-color: rgb(83, 83, 255);
+    font-weight: bold;
+    border-width: 2px;
+    background-color: white;
+    border-radius: 8px;
+    width: 60%;
+}
+@media screen and (max-width: 380px) {
+    .submit-button {
+        margin-top: 10px;
+        color: rgb(83, 83, 255);
+        border-color: rgb(83, 83, 255);
+        font-weight: bold;
+        border-width: 2px;
+        background-color: white;
+        border-radius: 8px;
+        width: 90%;
+    }
+  }

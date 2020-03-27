@@ -1,0 +1,159 @@
+
+.profile-body {
+    background-color: white !important;
+}
+
+.bread-crumb {
+    background-color: #F1F4F6;
+    padding: 5px; 
+    padding-left: 15px;
+    border-bottom: 1px solid #E0E1E2;
+}
+
+.h5-style{
+    color: #696A6A;
+}
+
+.request-appointment{
+    height: 30px;
+    border: 2px solid #6D8496; 
+    border-radius: 15px; 
+    color: #6D8496; 
+    font-size: 10px; 
+    font-weight: bold;
+}
+
+.tab-pane{
+    background-color: #ffffff;
+    color: #000000; 
+    padding: 10px;
+}
+
+.font1, .font2, .font3 {
+    color: #696A6A;
+}
+
+.font1 {
+    background-color: #EBECEB;
+}
+
+.profile-rate {
+    font-size: 15px;
+}
+
+.contact-num{
+    font-size: 20px;
+    font-weight: bold; 
+    color: #0F6AB6;
+}
+
+.request-appoint{
+    width: 100%;
+    height: auto;
+    border: 2px solid #6D8496;
+    padding: 5px 0px;
+    border-radius: 20px;
+    color: #6D8496;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.tabs-container{
+    background-color: #2A70A9;
+    color: #ffffff;
+}
+
+.div-profile {
+    margin-top: 30px;
+    border: 2px solid #E5E8E8;
+}
+
+.div-review {
+    padding: 10px;
+    border: 2px solid #E5E8E8;
+}
+
+.span-call{
+    color: #696A6A;
+    font-weight: bold;
+}
+
+.span-text{
+    font-size: 15px;
+}
+
+.span2-text{
+    color: #AEB1B1;
+}
+
+.div-pad{
+    padding: 10px;
+}
+
+.col-profile {
+    margin-top: 10px;
+}
+
+.col-profile, .col-book{
+    padding: 0px;
+}
+
+.book-visit-container {
+    margin-top: 40px;
+    box-shadow: 0px 0px  2px rgb(170, 170, 170);
+}
+
+.div-head{
+    background-color: #2A70A9; 
+    padding: 8px;
+}
+
+.div-text{
+    border-top: 2px solid #E5E8E8; 
+    padding: 8px;
+}
+
+.book-visit, .day-time{
+    color: white;
+}
+
+.time-picker, .date-picker {
+    width: 100%;
+}
+
+.review-rating {
+    font-size: 90%;
+}
+
+.avatar-review {
+    border: 2px solid #E5E8E8;
+}
+
+.people-review-box {
+    border-bottom: 2px solid #E5E8E8;
+}
+
+.review-button {
+    width: 100%;
+    height: 26px;
+    background-color: #EBECEB;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 2px solid #DADDDC;
+}
+
+.all-reviews {
+    width: 100%;
+    font-weight: bold;
+    border: 2px solid #DADDDC;
+    background-color: #EFF4F1;
+}
+
+@media screen and (max-width: 1000px) {
+    .filter{
+        font-size: 20px;
+    }
+    .book-visit{
+        font-size: 17px;
+    }
+  }
